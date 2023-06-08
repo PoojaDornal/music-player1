@@ -52,7 +52,7 @@ a {
 .navigation-bar {
 	height: auto;
 	width: auto;
-	background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0));
+/* 	background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0)); */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
