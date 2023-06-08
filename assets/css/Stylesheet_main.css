@@ -15,19 +15,18 @@
 	/* --background-image: linear-gradient(90deg,#21D4FD, #B721FF); */
 	/* --background-image:url("background_image/2725544.jpg"); */
 	/* triend all the above gradients, finally liked the gradient vectored image */
-/* 	--background-image: url(assets/images/2725544.jpg);
+	--background-image: url(media/background_image/2725544.jpg);
 	--music-themes-background-image: linear-gradient(
 		90deg,
 		#833ab4,
 		#fd1d1d,
 		#fcb045
-	); */
+	);
 	
 }
 
 body {
-	background-color:#1a1e33;
-/* 	background-image: var(--background-image); */
+	background-image: var(--background-image);
 	margin: 0px;
 	font-family: "Segoe UI", Arial, sans-serif;
 	color: white;
@@ -52,7 +51,7 @@ a {
 .navigation-bar {
 	height: auto;
 	width: auto;
-/* 	background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0)); */
+	background-image: linear-gradient(180deg, black, rgba(0, 0, 0, 0));
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -79,7 +78,7 @@ a {
 
 /* website logo image */
 .website-logo{
-    display: flex;
+	display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 18%;
@@ -676,16 +675,16 @@ input[type="checkbox"]:checked ~ .latest-release-dropdown {
 }
 /* divs corresponding to each of the 3 sub sections in the themes section */
 /* party */
- .music-themes-2 .outer-div:nth-child(1) .inner-div {
-	background-image: url("assets/music\ themes\ 2/party.jpg");
+.music-themes-2 .outer-div:nth-child(1) .inner-div {
+	background-image: url("media/music\ themes\ 2/party.jpg");
 }
 /* electronic */
 .music-themes-2 .outer-div:nth-child(2) .inner-div {
-	background-image: url("assets/music\ themes\ 2/electronic.jpg");
+	background-image: url("media/music\ themes\ 2/electronic.jpg");
 }
 /* road */
 .music-themes-2 .outer-div:nth-child(3) .inner-div {
-	background-image: url("assets/music\ themes\ 2/road.jpg");
+	background-image: url("media/music\ themes\ 2/road.jpg");
 }
 /* hivering actions: the text should be scaled down on hover and the background image should be scaled up at the same time gap */
 .outer-div:hover .inner-div {
@@ -971,7 +970,7 @@ footer {
     height: 3.5rem;
     width: 4rem;
     margin: 1vh;
-    background: url("assets/songs/shit.jpg") center no-repeat;
+    background: url("media/songs/shit.jpg") center no-repeat;
     background-size: contain;
 }
 
