@@ -15,18 +15,19 @@
 	/* --background-image: linear-gradient(90deg,#21D4FD, #B721FF); */
 	/* --background-image:url("background_image/2725544.jpg"); */
 	/* triend all the above gradients, finally liked the gradient vectored image */
-	--background-image: url(assets/images/2725544.jpg);
+/* 	--background-image: url(assets/images/2725544.jpg);
 	--music-themes-background-image: linear-gradient(
 		90deg,
 		#833ab4,
 		#fd1d1d,
 		#fcb045
-	);
+	); */
 	
 }
 
 body {
-	background-image: var(--background-image);
+	background-color:#1a1e33;
+/* 	background-image: var(--background-image); */
 	margin: 0px;
 	font-family: "Segoe UI", Arial, sans-serif;
 	color: white;
