@@ -234,8 +234,8 @@ main {
 }
 /* image insider jumbotron */
 .jumbotron-image {
-	height: 20vw;
-	width: 20vw;
+	height: 10vw;
+	width: 10vw;
 	background-image: linear-gradient(
 			to bottom,
 			transparent,
