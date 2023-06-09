@@ -202,7 +202,7 @@ main {
 /* section one of the main part */
 .section-1 {
 	width: 70%;
-	height: 85vh;
+	height: 95vh;
 	overflow: scroll;
 }
 /* overflow should be scrollable but the scroll bar should be hidden*/
