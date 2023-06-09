@@ -233,7 +233,7 @@ main {
 }
 /* image insider jumbotron */
 .jumbotron-image {
-	height: 20vw;
+	height: 15vw;
 	width: 20vw;
 	background-image: linear-gradient(
 			to bottom,
