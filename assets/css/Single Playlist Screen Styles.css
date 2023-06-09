@@ -1,11 +1,12 @@
 :root {
-/* 	--background-image: url("../assets/images/3541800.jpg"); */
+	--background-image: url("media/background_image/3541800.jpg");
 	--jumbotron-color: #141b41;
 	--playlist-items-background-color: #1a1e33;
 	--playlist-items-background-color-on-hover: #2e3249;
 }
 body {
-	background-color:#000000;
+	/* background-image: var(--background-image); */
+	background-image: var(--background-image);
 	
 /* 	background-position: center;
 	background-size: cover;
@@ -202,7 +203,7 @@ main {
 /* section one of the main part */
 .section-1 {
 	width: 70%;
-	height: 95vh;
+	height: 85vh;
 	overflow: scroll;
 }
 /* overflow should be scrollable but the scroll bar should be hidden*/
@@ -233,14 +234,15 @@ main {
 }
 /* image insider jumbotron */
 .jumbotron-image {
-	height: 15vw;
+	height: 20vw;
 	width: 20vw;
 	background-image: linear-gradient(
 			to bottom,
 			transparent,
 			rgba(20, 27, 65, 1)
 		),
-	url("assets/images/cold-play-playlist.png");
+		url("assets/images/cold-play-playlist.png");
+	background-size: cover;
 }
 /* right part of the jumbotron */
 .jumbotron-detail {
@@ -520,7 +522,7 @@ footer {
     height: 3.5rem;
     width: 4rem;
     margin: 1vh;
-    background: url("assets/songs/shit.jpg") center no-repeat;
+    background: url("media/songs/shit.jpg") center no-repeat;
     background-size: contain;
 }
 
