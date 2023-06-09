@@ -1,13 +1,11 @@
 :root {
-/* 	--background-image: url("assets/images/3541800.jpg"); */
-	background-color:black;
+
 	--jumbotron-color: #141b41;
 	--playlist-items-background-color: #1a1e33;
 	--playlist-items-background-color-on-hover: #2e3249;
 }
 body {
-	/* background-image: var(--background-image); */
-	background-image: var(--background-image);
+	background-color:#000000;
 	
 /* 	background-position: center;
 	background-size: cover;
