@@ -240,8 +240,7 @@ main {
 			transparent,
 			rgba(20, 27, 65, 1)
 		),
-/* 		url("../../assets/images/cold-play-playlist.png"); */
-	background-size: cover;
+	url("assets/images/cold-play-playlist.png");
 }
 /* right part of the jumbotron */
 .jumbotron-detail {
