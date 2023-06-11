@@ -1,5 +1,5 @@
 :root {
-	--background-image: url("../images/background_image/3541800.jpg");
+/* 	--background-image: url("../images/background_image/3541800.jpg"); */
 	--jumbotron-color: #141b41;
 	--playlist-items-background-color: #1a1e33;
 	--playlist-items-background-color-on-hover: #2e3249;
@@ -11,6 +11,7 @@ body {
 /* 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; */
+	background-color: #1a1e33;
 	margin: 0px;
 	font-family: "Segoe UI", Arial, sans-serif;
 	color: white;
