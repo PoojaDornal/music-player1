@@ -237,6 +237,7 @@ main {
 .jumbotron-image {
 	height: 7vw;
 	width: 10vw;
+	margin:0px;
 /* 	background-image: linear-gradient(
 			to bottom,
 			transparent,
