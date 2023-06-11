@@ -237,12 +237,12 @@ main {
 .jumbotron-image {
 	height: 10vw;
 	width: 10vw;
-/* 	background-image: linear-gradient(
+	background-image: linear-gradient(
 			to bottom,
 			transparent,
 			rgba(20, 27, 65, 1)
 		),
-		url("assets/images/workout.jpg"); */
+		url("assets/images/cold-play-playlist.png");
 	background-size: cover;
 }
 /* right part of the jumbotron */
