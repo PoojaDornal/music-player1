@@ -235,7 +235,7 @@ main {
 }
 /* image insider jumbotron */
 .jumbotron-image {
-	height: 7vw;
+	height: 10vw;
 	width: 10vw;
 	margin:0px;
 /* 	background-image: linear-gradient(
@@ -244,7 +244,7 @@ main {
 			rgba(20, 27, 65, 1)
 		),
 		url("assets/images/cold-play-playlist1.png"); */
-/* 	background-size: cover; */
+	background-size: cover;
 }
 /* right part of the jumbotron */
 .jumbotron-detail {
