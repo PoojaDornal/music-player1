@@ -1,7 +1,7 @@
 :root {
 /* 	--background-image: url("../images/background_image/3541800.jpg"); */
 	--jumbotron-color: #141b41;
-	--playlist-items-background-color: #1a1e33;
+/* 	--playlist-items-background-color: #1a1e33; */
 	--playlist-items-background-color-on-hover: #2e3249;
 }
 body {
@@ -314,7 +314,7 @@ main {
 	height: 8vh;
 
 	box-sizing: border-box;
-	background-color: var(--playlist-items-background-color);
+/* 	background-color: var(--playlist-items-background-color); */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
